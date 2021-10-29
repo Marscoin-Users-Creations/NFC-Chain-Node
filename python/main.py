@@ -1,5 +1,7 @@
 import string
 
+import "./internet.py"
+
 class main :
     
     def init(self, maximumNodes, minimumNodeFees) :
