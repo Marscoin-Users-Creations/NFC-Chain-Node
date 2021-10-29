@@ -3,8 +3,8 @@ import threading
 
 class server :
     
-    sserver = ""
+    sserver = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
 class client :
     
-    sclient = ""
+    sclient = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
