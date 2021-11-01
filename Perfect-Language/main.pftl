@@ -1,0 +1,13 @@
+include "./config/default-config.json"
+include "./internet/internet.pftl"
+include "./wallet/wallet.pftl"
+
+namespace main {
+    
+    class _INIT_() {
+        
+        
+        
+    }
+    
+}
