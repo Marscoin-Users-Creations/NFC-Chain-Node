@@ -6,7 +6,7 @@ FOR()     <==> C++ for -- for something then
 ELSE      <==> C++ else -- if something else
 THEN      <==> C++ { -- start of an if or for
 END       <==> C++ } -- end of an if or for
-;         <==> C++ ; -- end of a function
+SMCOL     <==> C++ ; -- end of a function
 
 DEL()     <==> C++ func = 0 -- set the value of a function from it's value to 0
 
