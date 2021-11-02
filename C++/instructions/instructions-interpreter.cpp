@@ -1,5 +1,8 @@
 #include "instructions-interpreter.hpp"
 
+#include "../internet/internet.cpp"
+#include "../wallet/wallet.cpp"
+
 namespace INSTRUCTIONS_INTERPRETER {
     
     int FUNC(int datas) = new int;
