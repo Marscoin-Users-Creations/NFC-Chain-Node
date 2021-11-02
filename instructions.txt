@@ -27,7 +27,7 @@ CALC()     <==> Calcul something with some given datas
 ADD        <==> C++ + -- something + something
 REMV()     <==> C++ - -- something - something
 MULTIP()   <==> C++ * -- something * something
-DIVD()   <==> C++ / -- something / something
+DIVD()     <==> C++ / -- something / something
 EXPO()     <==> C++ ^ -- something ^ something
 
 SMALR()    <==> C++ < -- something smaller than something
