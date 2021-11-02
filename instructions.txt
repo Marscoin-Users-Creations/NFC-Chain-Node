@@ -1,7 +1,8 @@
 Functions :
 
 FUNC name <==> C++ int / double / float / string -- create a new function with the value specified
-IF()      <==> C++ if -- if something then
+IF()      <==> C++ if -- if something condition something then something
+RIF()     <==> C++ if and return -- if something condition something then something and return something
 FOR()     <==> C++ for -- for something then
 ELSE      <==> C++ else -- if something else
 THEN      <==> C++ { -- start of an if or for
@@ -21,6 +22,8 @@ DWLD()    <==> C++ socket.socket.connect("server address"); socket.socket.send("
 
 
 Mathematics :
+
+CALC()    <==> Calcul something with some given datas
 
 ADD       <==> C++ + -- something + something
 REMV()    <==> C++ - -- something - something
