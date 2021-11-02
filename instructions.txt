@@ -28,7 +28,7 @@ ADD        <==> C++ + -- something + something
 REMV()     <==> C++ - -- something - something
 MULTIP()   <==> C++ * -- something * something
 DIVD()     <==> C++ / -- something / something
-EXPO()     <==> C++ ^ -- something ^ something
+POWR()     <==> C++ ^ -- something ^ something
 
 SMALR()    <==> C++ < -- something smaller than something
 BIGR()     <==> C++ > -- something bigger than something
