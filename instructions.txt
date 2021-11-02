@@ -33,6 +33,14 @@ EEQUAL()  <==> C++ ^= -- variable ^= something, variable = variable ^ something
 ISEQUAL() <==> C++ == -- in the instruction if something equal to something
 NEQUAL()  <==> C++ != -- in the instruction if something not equal to something
 
+
+Network :
+
+STOR()   <==> Store some datas inside the NFC Chain -- create a new nfc inside the nfc chain
+MODIF()  <==> Modify some datas inside the NFC Chain -- if an nfc is sent some someone to someone else
+DELT()   <==> Delete some datas inside the NFC Chain -- if an nfc is burned
+
+
 Internet :
 
 CNCT()    <==> C++ socket.socket.connect("server address");
