@@ -1,56 +1,55 @@
 Functions :
 
-FUNC name <==> C++ int / double / float / string -- create a new function with the value specified
-IF()      <==> C++ if -- if something condition something then something
-RIF()     <==> C++ if and return -- if something condition something then something and return something
-FOR()     <==> C++ for -- for something then
-ELSE      <==> C++ else -- if something else
-THEN      <==> C++ { -- start of an if or for
-END       <==> C++ } -- end of an if or for
-SMCOL     <==> C++ ; -- end of a function
+FUNC name  <==> C++ int / double / float / string -- create a new function with the value specified
+IF()       <==> C++ if -- if something condition something then something
+RIF()      <==> C++ if something return something
+IFELSE()   <==> C++ if something then else something
+RIFELSE()  <==> C++ if something return something then else something
+RRIFELSE() <==> C++ if something return something then else return something
+FOR()      <==> C++ for -- for something condition something then
 
-DEL()     <==> C++ func = 0 -- set the value of a function from it's value to 0
+DEL()      <==> C++ func = 0 -- set the value of a function from it's value to 0
 
 
 Internet :
 
-CNCT()    <==> C++ socket.socket.connect("server address");
-RECV()    <==> C++ socket.socket.recv("receive from");
-SEND()    <==> C++ socket.socket.send("datas to send");
+CNCT()     <==> C++ socket.socket.connect("server address");
+RECV()     <==> C++ socket.socket.recv("receive from");
+SEND()     <==> C++ socket.socket.send("datas to send");
 
-DWLD()    <==> C++ socket.socket.connect("server address"); socket.socket.send("{'datas': 'dwld', 'options': {'command': 'download command', 'hash': 'optional'}}") INTERNET.recvdDatas = socket.socket.recv() -- download a specific file with some options
+DWLD()     <==> C++ socket.socket.connect("server address"); socket.socket.send("{'datas': 'dwld', 'options': {'command': 'download command', 'hash': 'optional'}}") INTERNET.recvdDatas = socket.socket.recv() -- download a specific file with some options
 
 
 Mathematics :
 
-CALC()    <==> Calcul something with some given datas
+CALC()     <==> Calcul something with some given datas
 
-ADD       <==> C++ + -- something + something
-REMV()    <==> C++ - -- something - something
-MULTIP()  <==> C++ * -- something * something
-DIVIDE()  <==> C++ / -- something / something
-EXPO()    <==> C++ ^ -- something ^ something
+ADD        <==> C++ + -- something + something
+REMV()     <==> C++ - -- something - something
+MULTIP()   <==> C++ * -- something * something
+DIVD()   <==> C++ / -- something / something
+EXPO()     <==> C++ ^ -- something ^ something
 
-SMALR()   <==> C++ < -- something smaller than something
-BIGR()    <==> C++ > -- something bigger than something
+SMALR()    <==> C++ < -- something smaller than something
+BIGR()     <==> C++ > -- something bigger than something
 
-VEQUAL()  <==> C++ = -- variable = something
+VEQUAL()   <==> C++ = -- variable = something
 
-PEQUAL()  <==> C++ += -- variable += something, variable = variable + something
-REQUAL()  <==> C++ -= -- variable -= something, variable = variable - something
-DEQUAL()  <==> C++ /= -- variable /= something, variable = variable / something
-MEQUAL()  <==> C++ *= -- variable *= something, variable = variable * something
-EEQUAL()  <==> C++ ^= -- variable ^= something, variable = variable ^ something
+PEQUAL()   <==> C++ += -- variable += something, variable = variable + something
+REQUAL()   <==> C++ -= -- variable -= something, variable = variable - something
+DEQUAL()   <==> C++ /= -- variable /= something, variable = variable / something
+MEQUAL()   <==> C++ *= -- variable *= something, variable = variable * something
+EEQUAL()   <==> C++ ^= -- variable ^= something, variable = variable ^ something
 
-ISEQUAL() <==> C++ == -- in the instruction if something equal to something
-NEQUAL()  <==> C++ != -- in the instruction if something not equal to something
+ISEQUAL()  <==> C++ == -- in the instruction if something equal to something
+NEQUAL()   <==> C++ != -- in the instruction if something not equal to something
 
 
 Network :
 
-STOR()   <==> Store some datas inside the NFC Chain -- create a new nfc inside the nfc chain
-MODIF()  <==> Modify some datas inside the NFC Chain -- if an nfc is sent some someone to someone else
-DELT()   <==> Delete some datas inside the NFC Chain -- if an nfc is burned
+STOR()    <==> Store some datas inside the NFC Chain -- create a new nfc inside the nfc chain
+MODIF()   <==> Modify some datas inside the NFC Chain -- if an nfc is sent some someone to someone else
+DELT()    <==> Delete some datas inside the NFC Chain -- if an nfc is burned
 
 
 Wallet :
