@@ -5,13 +5,90 @@
 
 namespace INSTRUCTIONS_INTERPRETER {
     
-    int FUNC(int datas) = new int;
-    int IF(int datas, int datas2) = if(datas) { datas2 };
-    int FOR(int datas1, int calcul, int datas2, int result) = for(datas1 calcul datas2) { result };
-    int ELSE(int datas) = else { datas };
-    int THEN = {"{"};
-    int END = {"}"};
-    int SMCOL = ";";
+    int FUNC(int type, int funcName, int datas) {
+        
+        if (type == 1) {
+            
+            int funcName = datas;
+            
+        };
+        
+    };
+    int IF(int datas1, int condition, int datas2, int result) {
+        
+        if (datas1 condition datas2) {
+            
+            result;
+            
+        };
+        
+    };
+    int RIF(int datas1, int condition, int datas2, int result) {
+        
+        if (datas1 condition datas2) {
+            
+            return (result);
+            
+        };
+        
+    };
+    int IFELSE(int datas1, int condition, int datas2, int result1, int result2) {
+        
+        if (datas1 condition datas2) {
+            
+            result1;
+            
+        } else {
+            
+            result2;
+            
+        }
+        
+    };
+    int RIFELSE(int datas1, int condition, int datas2, int result1, int result2) {
+        
+        if (datas1 condition datas2) {
+            
+            return (result1)
+            
+        } else {
+            
+            result2
+            
+        };
+        
+    };
+    int RRIFELSE(int datas1, int condition, int datas2, int result1, int result2) {
+        
+        if (datas1 condition datas2) {
+            
+            return (result1)
+            
+        } else {
+            
+            return (result2)
+            
+        };
+        
+    }
+    int FOR(int datas1, int condition, int datas2, int result) {
+        
+        for(datas1 condition datas2) {
+            
+            result
+            
+        };
+        
+    };
+    int RFOR(int datas1, int condition, int datas2, int result) {
+        
+        for (datas1 condition datas2) {
+            
+            return (result);
+            
+        };
+        
+    };
     
     int DEL(int funcName) 
         
@@ -37,6 +114,39 @@ namespace INSTRUCTIONS_INTERPRETER {
     int DWLD(int fromServers, datas) {
         
         internet.internetClient.send(fromServers, datas)
+        
+    };
+    
+    
+    int CALC(int datas1, int cal, int datas2) {
+        
+        return (datas1 cal datas2)
+        
+    };
+    
+    int ADD(int datas1, int datas2) {
+        
+        return (datas1 + datas2)
+        
+    };
+    int REMV(int datas1, int datas2) {
+        
+        return (datas1 - datas2)
+        
+    };
+    int MULTIP(int datas1, int datas2) {
+        
+        return (datas1 * datas2)
+        
+    };
+    int DIVD(int datas1, int datas2) {
+        
+        return (datas1 / datas2)
+        
+    };
+    int EXPO(int datas1, int datas2) {
+        
+        return (datas1 ^ datas2)
         
     };
     
