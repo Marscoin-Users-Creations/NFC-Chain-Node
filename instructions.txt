@@ -11,6 +11,15 @@ END       <==> C++ } -- end of an if or for
 DEL()     <==> C++ func = 0 -- set the value of a function from it's value to 0
 
 
+Internet :
+
+CNCT()    <==> C++ socket.socket.connect("server address");
+RECV()    <==> C++ socket.socket.recv("receive from");
+SEND()    <==> C++ socket.socket.send("datas to send");
+
+DWLD()    <==> C++ socket.socket.connect("server address"); socket.socket.send("{'datas': 'dwld', 'options': {'command': 'download command', 'hash': 'optional'}}") INTERNET.recvdDatas = socket.socket.recv() -- download a specific file with some options
+
+
 Mathematics :
 
 ADD       <==> C++ + -- something + something
@@ -39,15 +48,6 @@ Network :
 STOR()   <==> Store some datas inside the NFC Chain -- create a new nfc inside the nfc chain
 MODIF()  <==> Modify some datas inside the NFC Chain -- if an nfc is sent some someone to someone else
 DELT()   <==> Delete some datas inside the NFC Chain -- if an nfc is burned
-
-
-Internet :
-
-CNCT()    <==> C++ socket.socket.connect("server address");
-RECV()    <==> C++ socket.socket.recv("receive from");
-SEND()    <==> C++ socket.socket.send("datas to send");
-
-DWLD()    <==> C++ socket.socket.connect("server address"); socket.socket.send("{'datas': 'dwld', 'options': {'command': 'download command', 'hash': 'optional'}}") INTERNET.recvdDatas = socket.socket.recv() -- download a specific file with some options
 
 
 Wallet :
