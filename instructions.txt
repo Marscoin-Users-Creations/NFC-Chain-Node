@@ -1,0 +1,49 @@
+Functions :
+
+FUNC name <==> C++ int / double / float / string -- create a new function with the value specified
+IF()      <==> C++ if -- if something then
+FOR()     <==> C++ for -- for something then
+ELSE      <==> C++ else -- if something else
+THEN      <==> C++ { -- start of an if or for
+END       <==> C++ } -- end of an if or for
+;         <==> C++ ; -- end of a function
+
+DEL()     <==> C++ func = 0 -- set the value of a function from it's value to 0
+
+
+Mathematics :
+
+ADD       <==> C++ + -- something + something
+REMV()    <==> C++ - -- something - something
+MULTIP()  <==> C++ * -- something * something
+DIVIDE()  <==> C++ / -- something / something
+EXPO()    <==> C++ ^ -- something ^ something
+
+SMALR()   <==> C++ < -- something smaller than something
+BIGR()    <==> C++ > -- something bigger than something
+
+VEQUAL()  <==> C++ = -- variable = something
+
+PEQUAL()  <==> C++ += -- variable += something, variable = variable + something
+REQUAL()  <==> C++ -= -- variable -= something, variable = variable - something
+DEQUAL()  <==> C++ /= -- variable /= something, variable = variable / something
+MEQUAL()  <==> C++ *= -- variable *= something, variable = variable * something
+EEQUAL()  <==> C++ ^= -- variable ^= something, variable = variable ^ something
+
+ISEQUAL() <==> C++ == -- in the instruction if something equal to something
+NEQUAL()  <==> C++ != -- in the instruction if something not equal to something
+
+Internet :
+
+CNCT()    <==> C++ socket.socket.connect("server address");
+RECV()    <==> C++ socket.socket.recv("receive from");
+SEND()    <==> C++ socket.socket.send("datas to send");
+
+DWLD()    <==> C++ socket.socket.connect("server address"); socket.socket.send("{'datas': 'dwld', 'options': {'command': 'download command', 'hash': 'optional'}}") INTERNET.recvdDatas = socket.socket.recv() -- download a specific file with some options
+
+
+Wallet :
+
+ATOK()    <==> Ask tokens to a specific address
+STOK()    <==> Send tokens to a specific address
+SMSG()    <==> Send message to a specific address
