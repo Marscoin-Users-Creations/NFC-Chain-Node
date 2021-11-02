@@ -144,7 +144,7 @@ namespace INSTRUCTIONS_INTERPRETER {
         return (datas1 / datas2)
         
     };
-    int EXPO(int datas1, int datas2) {
+    int POWR(int datas1, int datas2) {
         
         return (datas1 ^ datas2)
         
