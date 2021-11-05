@@ -12,7 +12,7 @@ class _CORE_ {
         
     };
     
-    fun internet(socket_to_use: Int, command: ByteArray) {
+    fun internet(socket_to_use: Byte, command: ByteArray) {
         
         if (socket_to_use == 0) {
             
