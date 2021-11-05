@@ -1,5 +1,12 @@
 class _CORE_ {
     
+    String core_datas = {
+        
+        "gui": {},
+        "internet": { "client_packets_sent": 0, 'client_packets_received": 0, "backup_client_packets_sent": 0, "backup_client_packets_received": 0, "server_packets_sent": 0, "server_packets_received": 0, "backup_server_packets_sent": 0, "backup_server_packets_received": 0 }
+        
+    };
+    
     fun start(work_to_do: UInt) {
         
         
