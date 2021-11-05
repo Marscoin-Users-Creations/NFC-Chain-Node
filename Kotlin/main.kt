@@ -1,6 +1,6 @@
 class main {
     
-    fun _INIT_() {
+    fun INIT() {
         
         
         
