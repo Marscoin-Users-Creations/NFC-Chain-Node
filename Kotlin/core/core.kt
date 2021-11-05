@@ -18,12 +18,12 @@ class _CORE_ {
             
             if (command[0 : 2] == "SND") {
                 
-                _INTERNET_.client.send(command[4 : ()]);
+                _INTERNET_.client.send(command[4 : (command.size - 1)]);
                 
             };
             if (command[0 : 2] == "RCV") {
                 
-                received_datas[] = _INTERNET_.client.recv();
+                _INTERNET_.received_datas.append(_INTERNET_.client.recv());
                 
             };
             
