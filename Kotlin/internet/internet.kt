@@ -1,4 +1,4 @@
-class _INTERNET_ {
+class INTERNET {
     
     
     
