@@ -12,16 +12,21 @@ class _CORE_ {
         
     };
     
-    fun internet(socket_to_use: UByte, command: UByteArray) {
+    fun gui(datas: UByteArray) {
+        
+        
+        
+    };
+    fun internet(socket_to_use: UByte, datas: UByteArray) {
         
         if (socket_to_use == 0) {
             
-            if (command[0 : 2] == "SND") {
+            if (datas[0 : 2] == "SND") {
                 
-                _INTERNET_.client.send(command[4 : (command.size - 1)]);
+                _INTERNET_.client.send(datas[4 : (datas.size - 1)]);
                 
             };
-            if (command[0 : 2] == "RCV") {
+            if (datas[0 : 2] == "RCV") {
                 
                 _INTERNET_.received_datas.append(_INTERNET_.client.recv());
                 
