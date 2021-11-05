@@ -17,7 +17,7 @@ class _CORE_ {
         
         
     };
-    fun internet(socket_to_use: UByte, datas: UByteArray) {
+    fun internet(socket_to_use: UByte, socket_number : UInt, datas: String) {
         
         if (socket_to_use == 0) {
             
@@ -35,7 +35,15 @@ class _CORE_ {
         };
         if (socket_to_use == 1) {
             
-            
+            if (datas[0 : 2] == "SND") {
+                
+                if (core_datas["internet"["server_crashed"]] == 0) {
+                    
+                    
+                    
+                };
+                
+            };
             
         };
         
