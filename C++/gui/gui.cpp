@@ -4,14 +4,42 @@ int guiDatas = {
     
     "buttons": {
         
-        "console": { "x_size": 15, "y_size": 7.5 },
-        "file": { "x_size": 15, "y_size": 7.5 },
-        "folder": { "x_size": "", "y_size": "" },
-        "home": { "x_size": 15, "y_size": 7.5 },
-        "network": { "x_size": 15, "y_size": 7.5 },
-        "settings": { "xSize": 15, "ySize": 7.5 },
-        "transactions": { "xSize": "", "ySize": "" },
-        "wallet": { "x_size": 15, "y_size": 7.5 }
+        "console": {
+            
+            "console": { "x_size": 15, "y_size": 7.5 },
+            "commands": { "x_size": 0, "y_size": 0 }
+            
+        },
+        "file": {
+            
+            "file": { "x_size": 15, "y_size": 7.5 },
+            "folder": { "x_size": 0, "y_size": 0 }
+            
+        },
+        "home": {
+            
+            "home": { "x_size": 15, "y_size": 7.5 }
+            
+        },
+        "network": {
+            
+            "network": { "x_size": 15, "y_size": 7.5 },
+            "peers": { "x_size": 0, "y_size": 0 }
+            
+        },
+        "settings": {
+            
+            "node_port": { "x_size": 0, "y_size": 0 },
+            "rpc_port": { "x_size": 0, "y_size": 0 },
+            "settings": { "x_size": 15, "y_size": 7.5 }
+            
+        },
+        "wallet": {
+            
+            "transactions": { "x_size": 0, "y_size": 0 },
+            "wallet": { "x_size": 15, "y_size": 7.5 }
+            
+        }
         
     },
     "texts": {
@@ -20,11 +48,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -34,11 +66,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -48,11 +84,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -62,11 +102,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -76,11 +120,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -90,11 +138,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -104,11 +156,15 @@ int guiDatas = {
             
             "enabled": 1,
             
+            "commands": "Commands",
             "console": "Console",
             "file": "File",
             "folder": "Folder",
             "home": "Home",
             "network": "Network",
+            "node_port": "Node Port",
+            "peers": "Peers",
+            "rcp_port": "RCP Port",
             "settings": "Settings",
             "transactions": "Transactions",
             "wallet": "Wallet"
@@ -118,11 +174,15 @@ int guiDatas = {
             
             "enabled": 1,
             
+            "commands": "Commandes",
             "console": "Console",
             "file": "Fichier",
             "folder": "Dossier",
             "home": "Menu",
             "network": "Reseau",
+            "node_port": "Port du Noeud",
+            "peers": "Pairs",
+            "rcp_port": "Port RCP",
             "settings": "Parametres",
             "transactions": "Transactions",
             "wallet": "Portefeuille"
@@ -132,11 +192,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -146,11 +210,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -160,11 +228,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -174,11 +246,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -188,11 +264,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -202,11 +282,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -216,11 +300,15 @@ int guiDatas = {
             
             "enabled": 0,
             
+            "commands": "",
             "console": "",
             "file": "",
             "folder": "",
             "home": "",
             "network": "",
+            "node_port": "",
+            "peers": "",
+            "rcp_port": "",
             "settings": "",
             "transactions": "",
             "wallet": ""
@@ -230,11 +318,15 @@ int guiDatas = {
             
             "enabled": 1,
             
+            "commands": "Comandos",
             "console": "Console",
             "file": "Expediente",
             "folder": "Carpeta",
             "home": "Menú",
             "network": "Red",
+            "node_port": "Puerto de Nodo",
+            "peers": "Compañeros",
+            "rcp_port": "Puerto RCP",
             "settings": "Ajustes",
             "transactions": "Actas",
             "wallet": "Billetera"
