@@ -5,6 +5,7 @@
 #include "./configs/config.json"
 #include "./gui/gui.cpp"
 #include "./internet/internet.cpp"
+#include "./memory/memory.cpp"
 #include "./wallet/wallet.cpp"
 
 namespace main {
