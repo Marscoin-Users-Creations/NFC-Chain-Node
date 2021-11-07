@@ -4,11 +4,14 @@ int guiDatas = {
     
     "buttons": {
         
-        "console": { "xSize": "", "ySize": "" },
+        "console": { "xSize": 107, "ySize": 60 },
         "file": { "xSize": "", "ySize": "" },
-        "home": { "xSize": "", "ySize": "" },
+        "folder": {},
+        "home": { "xSize": 107, "ySize": 60 },
+        "network": {},
         "settings": { "xSize": "", "ySize": "" },
-        "transactions": { "xSize": "", "ySize": "" }
+        "transactions": { "xSize": 107, "ySize": 60 },
+        "wallet": {}
         
     },
     "texts": {
@@ -19,9 +22,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "alb": {
@@ -30,9 +36,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "ar": {
@@ -41,9 +50,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "bg": {
@@ -52,9 +64,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "ch": {
@@ -63,9 +78,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "de": {
@@ -74,9 +92,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "en": {
@@ -85,9 +106,12 @@ int guiDatas = {
             
             "console": "Console",
             "file": "File",
+            "folder": "Folder",
             "home": "Home",
+            "network": "Network",
             "settings": "Settings",
-            "transactions": "Transactions"
+            "transactions": "Transactions",
+            "wallet": "Wallet"
             
         },
         "fr": {
@@ -96,9 +120,12 @@ int guiDatas = {
             
             "console": "Console",
             "file": "Fichier",
+            "folder": "Dossier",
             "home": "Menu",
+            "network": "Reseau",
             "settings": "Parametres",
-            "transactions": "Transactions"
+            "transactions": "Transactions",
+            "wallet": "Portefeuille"
             
         },
         "gr": {
@@ -107,9 +134,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "is": {
@@ -118,9 +148,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "it": {
@@ -129,9 +162,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "jp": {
@@ -140,9 +176,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "ka": {
@@ -151,9 +190,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "pl": {
@@ -162,9 +204,12 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "pt": {
@@ -173,20 +218,26 @@ int guiDatas = {
             
             "console": "",
             "file": "",
+            "folder": "",
             "home": "",
+            "network": "",
             "settings": "",
-            "transactions": ""
+            "transactions": "",
+            "wallet": ""
             
         },
         "sp": {
             
-            "enabled": 0,
+            "enabled": 1,
             
-            "console": "",
-            "file": "",
-            "home": "",
-            "settings": "",
-            "transactions": ""
+            "console": "Console",
+            "file": "Expediente",
+            "folder": "Carpeta",
+            "home": "Menú",
+            "network": "Red",
+            "settings": "Ajustes",
+            "transactions": "Actas",
+            "wallet": "Billetera"
             
         }
         
