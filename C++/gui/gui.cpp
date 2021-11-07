@@ -4,14 +4,14 @@ int guiDatas = {
     
     "buttons": {
         
-        "console": { "xSize": 107, "ySize": 60 },
-        "file": { "xSize": "", "ySize": "" },
-        "folder": {},
-        "home": { "xSize": 107, "ySize": 60 },
-        "network": {},
-        "settings": { "xSize": "", "ySize": "" },
-        "transactions": { "xSize": 107, "ySize": 60 },
-        "wallet": {}
+        "console": { "x_size": 15, "y_size": 7.5 },
+        "file": { "x_size": 15, "y_size": 7.5 },
+        "folder": { "x_size": "", "y_size": "" },
+        "home": { "x_size": 15, "y_size": 7.5 },
+        "network": { "x_size": 15, "y_size": 7.5 },
+        "settings": { "xSize": 15, "ySize": 7.5 },
+        "transactions": { "xSize": "", "ySize": "" },
+        "wallet": { "x_size": 15, "y_size": 7.5 }
         
     },
     "texts": {
