@@ -1,6 +1,8 @@
 #include <std>
 
-int guiDatas = {
+#include "QT.cpp"
+
+unsigned int guiDatas = {
     
     "buttons": {
         
@@ -339,6 +341,10 @@ int guiDatas = {
 
 namespace _GUI_ {
     
-    
+    unsigned int start(uint gui_x_size, uint gui_y_size, uint gui_theme, string appname) {
+        
+        
+        
+    };
     
 }
