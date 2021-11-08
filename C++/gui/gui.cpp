@@ -346,5 +346,10 @@ namespace _GUI_ {
         
         
     };
+    unsigned int stop() {
+        
+        
+        
+    };
     
 }
