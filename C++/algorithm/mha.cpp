@@ -1,3 +1,3 @@
-#define uint0-25 63
+#define uint0_25 63
 
-uint0-25 hash = "";
+uint0_25 hash = "";
