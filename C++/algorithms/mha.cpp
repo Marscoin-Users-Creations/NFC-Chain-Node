@@ -16,6 +16,39 @@ namespace mha {
         
         
         
+        if (datas.size() > 64) {
+            
+            unsigned int datasStringNumber = 0;
+            
+            for (datas.size() != 0) {
+                
+                new string()
+                
+            }
+            
+        } else if (datas.size < 64) {
+            
+            for (datas.size() != 64) {
+                
+                datas.append(0)
+                
+            }
+            for () {
+                
+                
+                
+            }
+            
+        } else {
+            
+            for () {
+                
+                
+                
+            }
+            
+        };
+        
     };
     
 };
