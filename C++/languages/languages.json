@@ -1,0 +1,60 @@
+{
+    
+    "english": {
+        
+        "ca": {
+            
+            "addresses": "",
+            "home": "",
+            "nfts": "",
+            "transactions": ""
+            
+        },
+        "en": {
+            
+            "addresses": "Address",
+            "home": "",
+            "nfts": "Non Fungible Tokens",
+            "transactions": ""
+            
+        },
+        "usa": {
+            
+            "addresses": "",
+            "home": "",
+            "nfts": "",
+            "transactions": ""
+            
+        }
+        
+    },
+    "french": {
+        
+        "fr": {
+            
+            "addresses": "Addresses",
+            "home": "Menu",
+            "nfts": "Tokens Non Fongibles",
+            "transactions": "Transactions"
+           
+        },
+        "qc": {
+            
+            "addresses": "",
+            "home": "",
+            "nfts": "",
+            "transactions": ""
+            
+        },
+        "switzerland": {
+            
+            "addresses": "",
+            "home": "",
+            "nfts": "",
+            "transactions": ""
+            
+        }
+        
+    }
+    
+}
