@@ -28,6 +28,20 @@
         }
         
     },
+    "español": {
+        
+        "es": {
+            
+            
+            
+        },
+        "me": {
+            
+            
+            
+        }
+        
+    },
     "français": {
         
         "be": {
@@ -64,16 +78,14 @@
         }
         
     },
-    "español": {
+    "italiano": {
         
-        "es": {
+        "it": {
             
-            
-            
-        },
-        "me": {
-            
-            
+            "addresses": "",
+            "home": "",
+            "nfts": "",
+            "transactions": ""
             
         }
         
