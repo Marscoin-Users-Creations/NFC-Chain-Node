@@ -30,6 +30,14 @@
     },
     "français": {
         
+        "be": {
+            
+            "addresses": "",
+            "home": "",
+            "nfts": "",
+            "transactions": ""
+            
+        },
         "fr": {
             
             "addresses": "Addresses",
@@ -46,7 +54,7 @@
             "transactions": ""
             
         },
-        "switzerland": {
+        "ch": {
             
             "addresses": "",
             "home": "",
@@ -58,12 +66,12 @@
     },
     "español": {
         
-        "me": {
+        "es": {
             
             
             
         },
-        "sp": {
+        "me": {
             
             
             
