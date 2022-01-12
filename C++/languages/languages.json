@@ -28,7 +28,7 @@
         }
         
     },
-    "french": {
+    "français": {
         
         "fr": {
             
@@ -52,6 +52,20 @@
             "home": "",
             "nfts": "",
             "transactions": ""
+            
+        }
+        
+    },
+    "spanol": {
+        
+        "me": {
+            
+            
+            
+        },
+        "sp": {
+            
+            
             
         }
         
