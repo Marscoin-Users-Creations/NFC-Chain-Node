@@ -38,6 +38,14 @@
             "transactions": ""
             
         },
+        "ch": {
+            
+            "addresses": "",
+            "home": "",
+            "nfts": "",
+            "transactions": ""
+            
+        },
         "fr": {
             
             "addresses": "Addresses",
@@ -47,14 +55,6 @@
            
         },
         "qc": {
-            
-            "addresses": "",
-            "home": "",
-            "nfts": "",
-            "transactions": ""
-            
-        },
-        "ch": {
             
             "addresses": "",
             "home": "",
