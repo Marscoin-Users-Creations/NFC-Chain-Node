@@ -1,12 +1,29 @@
 {
     
+    "": {
+        
+        "classic": {
+            
+            
+            
+        },
+        "simplified": {
+            
+            "nfcs": "",
+            "home": "",
+            "nfcs": "",
+            "transactions": ""
+            
+        }
+        
+    },
     "english": {
         
         "ca": {
             
             "addresses": "",
             "home": "",
-            "nfts": "",
+            "nfcs": "",
             "transactions": ""
             
         },
@@ -14,7 +31,7 @@
             
             "addresses": "Address",
             "home": "",
-            "nfts": "Non Fungible Tokens",
+            "nfcs": "Non Fungible Tokens",
             "transactions": ""
             
         },
@@ -22,7 +39,7 @@
             
             "addresses": "",
             "home": "",
-            "nfts": "",
+            "nfcs": "",
             "transactions": ""
             
         }
@@ -32,12 +49,18 @@
         
         "es": {
             
-            
+            "addresses": "",
+            "home": "",
+            "nfcs": "",
+            "transactions": ""
             
         },
         "me": {
             
-            
+            "addresses": "",
+            "home": "",
+            "nfcs": "",
+            "transactions": ""
             
         }
         
@@ -48,15 +71,7 @@
             
             "addresses": "",
             "home": "",
-            "nfts": "",
-            "transactions": ""
-            
-        },
-        "ch": {
-            
-            "addresses": "",
-            "home": "",
-            "nfts": "",
+            "nfcs": "",
             "transactions": ""
             
         },
@@ -64,7 +79,7 @@
             
             "addresses": "Addresses",
             "home": "Menu",
-            "nfts": "Tokens Non Fongibles",
+            "nfcs": "Coins Non Fongibles",
             "transactions": "Transactions"
            
         },
@@ -72,7 +87,7 @@
             
             "addresses": "",
             "home": "",
-            "nfts": "",
+            "nfcs": "",
             "transactions": ""
             
         }
@@ -84,7 +99,7 @@
             
             "addresses": "",
             "home": "",
-            "nfts": "",
+            "nfcs": "",
             "transactions": ""
             
         }
